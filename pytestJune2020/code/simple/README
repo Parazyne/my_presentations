@@ -1,0 +1,5 @@
+Here's how to run the test scripts in this directory.  This is the order in which
+I executed these during the talk:
+
+"python add_unittest.py" - test add application with Python's builtin unittest test framework
+"pytest" - test the add.py application with PyTest 

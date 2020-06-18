@@ -1,0 +1,10 @@
+Here's how to run the test scripts with PyTest in this directory.  This is the order in which
+I executed these during the talk:
+
+"pytest" - this will run all "test_*.py" scripts
+"pytest -sv" - run all scripts but with enhanced output
+"pytest -sv test_add_pytest.py" - test the add.py application
+"pytest -sv test_add_fixture_basic.py" - test add.py with using a fixture
+"pytest -sv test_add_fixture_param.py" - test add.py with a parameterized fixture
+"pytest -sv test_add_fixture_funcscope.py" - test add.py with a function scoped fixture
+"pytest -sv test_add_fixture_modulescope.py" - test add.py with a module scoped fixture
