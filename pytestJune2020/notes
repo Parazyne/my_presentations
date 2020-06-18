@@ -1,0 +1,27 @@
+#2: Introducing PyTest
+		Why PyTest? Show simple code examples
+
+		I'll think everybody will be able to engage at some
+level, no matter your programming experience.
+
+		Examples from ****** To see how you might be able to use
+PyTest
+
+
+#6:  Why PyTest?
+		- Easiest to use and most powerful: show code in
+"simple" folder
+
+
+#7:  Fixtures: PyTest's Best Feature
+		- setup/teardown: Run "pytest -sv test_add_fixture.py"
+		- parameters:  Run "pytest -sv
+test_add_fixture_param.py"
+		- scope: Run "pytest -sv test_add_fixture_funcscope.py"
+		- scope: Run "pytest -sv test_add_fixture_modulescope.py"
+		- ****** examples: (show slides 8,9 first):
+
+
+#10: More PyTest features
+		- CI: show 'daily' marker in *****.py
+		- Hook functions: show conftest.py
